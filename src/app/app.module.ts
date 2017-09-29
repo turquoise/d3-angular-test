@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ShapesComponent } from './shapes/shapes.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShapesComponent
+    ShapesComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule

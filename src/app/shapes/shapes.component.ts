@@ -13,6 +13,7 @@ export class ShapesComponent implements OnInit, AfterViewInit {
   constructor(private element: ElementRef) {}
 
   // http://javaee.ch/2017/02/10/angular-and-d3-js-tutorial/
+  // https://iros.github.io/d3-v4-whats-new/#18
 
   ngOnInit() {
     //this.generateShapes();
@@ -22,7 +23,13 @@ export class ShapesComponent implements OnInit, AfterViewInit {
     this.generateShapes();
     this.generateData();
     this.generateBarData();
+    this.generateChart2();
   }
+
+  generateChart2() {
+    
+  }
+
 
   generateBarData() {
     var bardata = [20, 30, 105, 15, 85];
